@@ -1,17 +1,21 @@
 package com.ctg.test.utils;
 
-import org.apache.commons.lang3.StringUtils;
+
+import org.springframework.util.StringUtils;
 
 
 public class MoneyFormatUitl {
-    /** 分转元<br>
+
+    /**
+     * 分转元<br>
      * 适用场景: <br>
      * 调用方式: <br>
-     * 业务逻辑说明<br>*/
+     * 业务逻辑说明<br>
+     */
     public static String changeF2Y(String fenStr) {
         String yuanStr = "";
 
-        if (StringUtils.isBlank(fenStr)) {
+        if (StringUtils.isEmpty(fenStr)) {
             return "";
         }
 
@@ -28,11 +32,9 @@ public class MoneyFormatUitl {
         StringBuffer result = new StringBuffer();
         if (amString.length() == 1) {
             result.append("0.0").append(amString);
-        }
-        else if (amString.length() == 2) {
+        } else if (amString.length() == 2) {
             result.append("0.").append(amString);
-        }
-        else {
+        } else {
             String intString = amString.substring(0, amString.length() - 2);
             for (int i = 1; i <= intString.length(); i++) {
                 // if ((i - 1) % 3 == 0 && i != 1) {
@@ -44,8 +46,7 @@ public class MoneyFormatUitl {
         }
         if (flag == 1) {
             yuanStr = "-" + result.toString();
-        }
-        else {
+        } else {
             yuanStr = result.toString();
         }
 
@@ -53,10 +54,12 @@ public class MoneyFormatUitl {
 
     }
 
-    /** 分转元，带千分位表示 <br>
+    /**
+     * 分转元，带千分位表示 <br>
      * 适用场景: <br>
      * 调用方式: <br>
-     * 业务逻辑说明<br>*/
+     * 业务逻辑说明<br>
+     */
     public static String changeF2YT(String fenStr) {
         String yuanStr = "";
 
@@ -73,11 +76,9 @@ public class MoneyFormatUitl {
         StringBuffer result = new StringBuffer();
         if (amString.length() == 1) {
             result.append("0.0").append(amString);
-        }
-        else if (amString.length() == 2) {
+        } else if (amString.length() == 2) {
             result.append("0.").append(amString);
-        }
-        else {
+        } else {
             String intString = amString.substring(0, amString.length() - 2);
             for (int i = 1; i <= intString.length(); i++) {
                 if ((i - 1) % 3 == 0 && i != 1) {
@@ -89,8 +90,7 @@ public class MoneyFormatUitl {
         }
         if (flag == 1) {
             yuanStr = "-" + result.toString();
-        }
-        else {
+        } else {
             yuanStr = result.toString();
         }
 
@@ -98,29 +98,27 @@ public class MoneyFormatUitl {
 
     }
 
-    /** 元转分 <br>
+    /**
+     * 元转分 <br>
      * 适用场景: <br>
      * 调用方式: <br>
-     * 业务逻辑说明<br>*/
+     * 业务逻辑说明<br>
+     */
     public static Long parseYuanToFen(String yunaStr) {
-        if (StringUtils.isBlank(yunaStr)) {
+        if (StringUtils.isEmpty(yunaStr)) {
             return 0L;
-        }
-        else {
+        } else {
             String currency = yunaStr.replaceAll("\\$|\\￥|\\,", ""); // 处理包含, ￥ 或者$的金额
             int index = currency.indexOf(".");
             int length = currency.length();
             Long amLong = 0l;
             if (index == -1) {
                 amLong = Long.valueOf(currency + "00");
-            }
-            else if (length - index >= 3) {
+            } else if (length - index >= 3) {
                 amLong = Long.valueOf((currency.substring(0, index + 3)).replace(".", ""));
-            }
-            else if (length - index == 2) {
+            } else if (length - index == 2) {
                 amLong = Long.valueOf((currency.substring(0, index + 2)).replace(".", "") + 0);
-            }
-            else {
+            } else {
                 amLong = Long.valueOf((currency.substring(0, index + 1)).replace(".", "") + "00");
             }
             return amLong;
@@ -130,24 +128,23 @@ public class MoneyFormatUitl {
     /**
      * @description:厘转分
      */
-    public static String li2fen(String li){
-        if(StringUtils.isBlank(li)||"0".equalsIgnoreCase(li)||li.length()<=1){
+    public static String li2fen(String li) {
+        if (StringUtils.isEmpty(li) || "0".equalsIgnoreCase(li) || li.length() <= 1) {
             return "0";
-        }
-        else {
+        } else {
             String fen = li.substring(0, li.length() - 1);
             return fen;
         }
     }
+
     /**
      * @description:分转厘
      */
-    public static String fen2li(String fen){
-        if(StringUtils.isBlank(fen)||"0".equalsIgnoreCase(fen)){
+    public static String fen2li(String fen) {
+        if (StringUtils.isEmpty(fen) || "0".equalsIgnoreCase(fen)) {
             return "0";
-        }
-        else {
-            String li = fen+"0";
+        } else {
+            String li = fen + "0";
             return li;
         }
     }

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-lombok" />
+        <module name="springboot-limit-api" />
+        <module name="springboot-static" />
+        <module name="springboot-nacos" />
+        <module name="springboot-kafak-test" />
+        <module name="springboot-demo2" />
+        <module name="springboot-file" />
+        <module name="api-server" />
+        <module name="springboot-redis" />
+        <module name="springboot-log" />
+        <module name="springboot-jwt" />
+        <module name="springboot-nacos-consumer" />
+        <module name="springboot-security" />
+        <module name="api-client" />
+        <module name="springboot-shiro" />
+        <module name="springboot-config" />
+        <module name="springboot-auth" />
+        <module name="springboot-admin-server" />
+        <module name="springboot-apollo" />
+        <module name="springboot-quartz-cluster" />
+        <module name="springboot-cros" />
+        <module name="springboot-html" />
+        <module name="springboot-swagger" />
+        <module name="springboot-guava" />
+        <module name="user-springboot-starter" />
+        <module name="springboot-starter-test" />
+        <module name="springboot-druid" />
+        <module name="springboot-tkmybatis" />
+        <module name="api-common" />
+        <module name="springboot-admin-client" />
+        <module name="springboot-elk" />
+        <module name="springboot-async" />
+        <module name="springboot-listener" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-client" target="1.6" />
+      <module name="api-common" target="1.6" />
+      <module name="api-server" target="1.6" />
+      <module name="springboot-admin-client" target="8" />
+      <module name="springboot-admin-server" target="1.6" />
+      <module name="springboot-apollo" target="1.6" />
+      <module name="springboot-async" target="1.6" />
+      <module name="springboot-auth" target="1.6" />
+      <module name="springboot-config" target="1.6" />
+      <module name="springboot-cros" target="1.6" />
+      <module name="springboot-demo2" target="1.8" />
+      <module name="springboot-druid" target="1.6" />
+      <module name="springboot-elk" target="1.6" />
+      <module name="springboot-file" target="1.6" />
+      <module name="springboot-guava" target="1.6" />
+      <module name="springboot-html" target="1.6" />
+      <module name="springboot-invoke" target="1.6" />
+      <module name="springboot-invoke (1)" target="1.6" />
+      <module name="springboot-invoke (2)" target="1.6" />
+      <module name="springboot-jwt" target="1.6" />
+      <module name="springboot-kafak-test" target="1.6" />
+      <module name="springboot-limit-api" target="1.6" />
+      <module name="springboot-listener" target="1.6" />
+      <module name="springboot-log" target="1.6" />
+      <module name="springboot-lombok" target="1.6" />
+      <module name="springboot-nacos" target="1.6" />
+      <module name="springboot-nacos-consumer" target="1.6" />
+      <module name="springboot-quartz-cluster" target="1.6" />
+      <module name="springboot-redis" target="1.6" />
+      <module name="springboot-security" target="1.6" />
+      <module name="springboot-shiro" target="1.6" />
+      <module name="springboot-starter-test" target="1.6" />
+      <module name="springboot-static" target="1.6" />
+      <module name="springboot-swagger" target="1.6" />
+      <module name="springboot-tkmybatis" target="1.6" />
+      <module name="user-springboot-starter" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

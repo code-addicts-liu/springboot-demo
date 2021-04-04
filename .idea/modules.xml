@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-invoke/api-client/api-client.iml" filepath="$PROJECT_DIR$/springboot-invoke/api-client/api-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-invoke/api-common/api-common.iml" filepath="$PROJECT_DIR$/springboot-invoke/api-common/api-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-invoke/api-server/api-server.iml" filepath="$PROJECT_DIR$/springboot-invoke/api-server/api-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springBoot-demos.iml" filepath="$PROJECT_DIR$/.idea/springBoot-demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-admin-client/springboot-admin-client.iml" filepath="$PROJECT_DIR$/springboot-admin-client/springboot-admin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-admin-server/springboot-admin-server.iml" filepath="$PROJECT_DIR$/springboot-admin-server/springboot-admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-apollo/springboot-apollo.iml" filepath="$PROJECT_DIR$/springboot-apollo/springboot-apollo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-async/springboot-async.iml" filepath="$PROJECT_DIR$/springboot-async/springboot-async.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-auth/springboot-auth.iml" filepath="$PROJECT_DIR$/springboot-auth/springboot-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-config/springboot-config.iml" filepath="$PROJECT_DIR$/springboot-config/springboot-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-cros/springboot-cros.iml" filepath="$PROJECT_DIR$/springboot-cros/springboot-cros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-demo2/springboot-demo2.iml" filepath="$PROJECT_DIR$/springboot-demo2/springboot-demo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-druid/springboot-druid.iml" filepath="$PROJECT_DIR$/springboot-druid/springboot-druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-elk/springboot-elk.iml" filepath="$PROJECT_DIR$/springboot-elk/springboot-elk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-file/springboot-file.iml" filepath="$PROJECT_DIR$/springboot-file/springboot-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-guava/springboot-guava.iml" filepath="$PROJECT_DIR$/springboot-guava/springboot-guava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-html/springboot-html.iml" filepath="$PROJECT_DIR$/springboot-html/springboot-html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-invoke/springboot-invoke.iml" filepath="$PROJECT_DIR$/springboot-invoke/springboot-invoke.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-invoke/springboot-invoke (2).iml" filepath="$PROJECT_DIR$/springboot-invoke/springboot-invoke (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-jwt/springboot-jwt.iml" filepath="$PROJECT_DIR$/springboot-jwt/springboot-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-kafak-test/springboot-kafak-test.iml" filepath="$PROJECT_DIR$/springboot-kafak-test/springboot-kafak-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-limit-api/springboot-limit-api.iml" filepath="$PROJECT_DIR$/springboot-limit-api/springboot-limit-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-listener/springboot-listener.iml" filepath="$PROJECT_DIR$/springboot-listener/springboot-listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-log/springboot-log.iml" filepath="$PROJECT_DIR$/springboot-log/springboot-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-lombok/springboot-lombok.iml" filepath="$PROJECT_DIR$/springboot-lombok/springboot-lombok.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-nacos/springboot-nacos.iml" filepath="$PROJECT_DIR$/springboot-nacos/springboot-nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-nacos-consumer/springboot-nacos-consumer.iml" filepath="$PROJECT_DIR$/springboot-nacos-consumer/springboot-nacos-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-quartz-cluster/springboot-quartz-cluster.iml" filepath="$PROJECT_DIR$/springboot-quartz-cluster/springboot-quartz-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-security/springboot-security.iml" filepath="$PROJECT_DIR$/springboot-security/springboot-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-starter-test/springboot-starter-test.iml" filepath="$PROJECT_DIR$/springboot-starter-test/springboot-starter-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-static/springboot-static.iml" filepath="$PROJECT_DIR$/springboot-static/springboot-static.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" filepath="$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-tkmybatis/springboot-tkmybatis.iml" filepath="$PROJECT_DIR$/springboot-tkmybatis/springboot-tkmybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-user-starter/user-springboot-starter.iml" filepath="$PROJECT_DIR$/springboot-user-starter/user-springboot-starter.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,28 @@
+Compiled from "JvmTest.java"
+public class com.ctg.test.learn.JvmTest {
+  public com.ctg.test.learn.JvmTest();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+                int a=1;
+                int b=2;
+                int c=a+b;
+                System.out.println(c);
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: iconst_1   //将int型1推送至栈顶
+       1: istore_1   //将栈顶int型数值存入第二个本地变量
+       2: iconst_2   //将int型2推送至栈顶
+       3: istore_2   //将栈顶int型数值存入第三个本地变量
+       4: iload_1    //将第二个int型本地变量推送至栈顶
+       5: iload_2    //将第三个int型本地变量推送至栈顶
+       6: iadd       //将栈顶两int型数值相加并将结果压入栈顶
+       7: istore_3   //将栈顶int型数值存入第四个本地变量
+       8: getstatic  //获取指定类的静态域，并将其值压入栈顶   #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      11: iload_3    //将第四个int型本地变量推送至栈顶
+      12: invokevirtual  //调用实例方法 #3                  // Method java/io/PrintStream.println:(I)V
+      15: return
+}

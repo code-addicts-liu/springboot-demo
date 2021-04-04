@@ -3,6 +3,7 @@ package com.ctg.test.utils;
 import java.io.File;
 import java.io.FileFilter;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -17,6 +18,7 @@ public class TextSearchFile {
             result.add(folder);
 
         File[] subFolders = folder.listFiles(new FileFilter() {
+
             @Override
             public boolean accept(File file) {
                 if (file.isDirectory()) {
